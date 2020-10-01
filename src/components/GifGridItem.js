@@ -1,7 +1,6 @@
 import React from 'react';
 
 const GifGridItem = ({ id, title, image }) => {
-    console.log({ id, title, image });
     return (
         <div className='animate__animated animate__fadeIn'>
             <img src={image} alt={title} />
